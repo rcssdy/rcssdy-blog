@@ -1,5 +1,5 @@
 {
-  "version": "bc85b233",
+  "version": "e7d3f364",
   "entry": {
     "module": "/build/entry.client-QLF55OQL.js",
     "imports": [
@@ -11,10 +11,10 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-SD35D7UV.js",
+      "module": "/build/root-CIJAR3AH.js",
       "imports": [
         "/build/_shared/chunk-357YZC7N.js",
-        "/build/_shared/chunk-3GKGJVK6.js"
+        "/build/_shared/chunk-GPUUKWHX.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -25,7 +25,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-UMKTY4RN.js",
+      "module": "/build/routes/index-622JOAXX.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -35,12 +35,12 @@
       "id": "routes/resume",
       "parentId": "root",
       "path": "resume",
-      "module": "/build/routes/resume-TTMVGYNH.js",
+      "module": "/build/routes/resume-MHMTLB6T.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-BC85B233.js"
+  "url": "/build/manifest-E7D3F364.js"
 }
