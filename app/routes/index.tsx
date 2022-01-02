@@ -1,32 +1,41 @@
+import { Box, Text, Heading, Grid, Button, Image } from "@chakra-ui/react";
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+    <>
+      <Box
+        display={"flex"}
+        flexDirection={["column-reverse", "column-reverse", "row"]}
+        borderWidth="1px"
+        borderRadius="lg"
+        p={8}
+        gap={4}
+        boxShadow="base"
+      >
+        <Grid gap={4} autoFlow="row dense">
+          <Heading as="h1" size="xl">
+            Hi, I'm Ryan Cassidy 👋🏻
+          </Heading>
+          <Text fontSize="lg">
+            I'm a Senior Software Engineer at Happy Group, solving complex
+            problems with JavaScript & PHP. I've travelled the world writing
+            code for ~8 years now, visiting many different countries in the
+            process.
+          </Text>
+          <Button size="lg" width={"150px"}>
+            Learn More
+          </Button>
+        </Grid>
+        <Box>
+          <Image
+            src="/assets/me.jpg"
+            alt="Ryan Cassidy"
+            width={["60%", "60%", "450px"]}
+            mx={["auto", "auto", "0"]}
+            borderRadius={"100%"}
+          />
+        </Box>
+      </Box>
+    </>
   );
 }
