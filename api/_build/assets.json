@@ -1,5 +1,5 @@
 {
-  "version": "e7d3f364",
+  "version": "aa763d16",
   "entry": {
     "module": "/build/entry.client-QLF55OQL.js",
     "imports": [
@@ -35,12 +35,12 @@
       "id": "routes/resume",
       "parentId": "root",
       "path": "resume",
-      "module": "/build/routes/resume-MHMTLB6T.js",
+      "module": "/build/routes/resume-LGJFZUTB.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-E7D3F364.js"
+  "url": "/build/manifest-AA763D16.js"
 }
