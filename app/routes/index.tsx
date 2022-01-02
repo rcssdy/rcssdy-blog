@@ -23,7 +23,7 @@ export default function Index() {
             process.
           </Text>
           <Button size="lg" width={"150px"}>
-            Learn More
+            Learn more
           </Button>
         </Grid>
         <Box>

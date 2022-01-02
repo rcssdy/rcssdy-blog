@@ -86,23 +86,6 @@ const MobileNavItem = ({ label, href }: NavItem) => {
           {label}
         </Text>
       </Flex>
-
-      {/* <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }}>
-        <Stack
-          mt={2}
-          pl={4}
-          borderLeft={1}
-          borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.700')}
-          align={'start'}>
-          {children &&
-            children.map((child) => (
-              <Link key={child.label} py={2} href={child.href}>
-                {child.label}
-              </Link>
-            ))}
-        </Stack>
-      </Collapse> */}
     </Stack>
   );
 };
@@ -134,7 +117,12 @@ export default function Navigation() {
                 <Flex display={{ base: "none", md: "flex" }}>
                   <DesktopNavigation />
                 </Flex>
-
+                <IconButton
+                  onClick={toggleColorMode}
+                  icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+                  variant={"ghost"}
+                  aria-label={"Toggle Color Mode"}
+                />
                 <IconButton
                   onClick={onToggle}
                   display={{ base: "flex", md: "none" }}
@@ -147,13 +135,6 @@ export default function Navigation() {
                   }
                   variant={"ghost"}
                   aria-label={"Toggle Navigation"}
-                />
-
-                <IconButton
-                  onClick={toggleColorMode}
-                  icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-                  variant={"ghost"}
-                  aria-label={"Toggle Color Mode"}
                 />
               </Stack>
             </Box>
