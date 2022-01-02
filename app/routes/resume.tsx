@@ -5,10 +5,7 @@ import {
   Grid,
   UnorderedList,
   ListItem,
-  SimpleGrid,
   Flex,
-  Button,
-  Link,
   Image,
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/react";
@@ -130,16 +127,11 @@ export default function Resume() {
     <Box>
       <Grid gap={8} autoFlow="row dense">
         <Grid gap={4} autoFlow="row dense">
-          <Flex justifyContent={"space-between"}>
+          <Flex>
             <Box>
               <Heading as="h1" size="lg">
                 Resume
               </Heading>
-            </Box>
-            <Box>
-              <Link as={Button} to="/contact">
-                Get in touch
-              </Link>
             </Box>
           </Flex>
           <Text>

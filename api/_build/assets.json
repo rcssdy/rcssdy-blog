@@ -1,9 +1,9 @@
 {
-  "version": "2f11e201",
+  "version": "18f4d6bc",
   "entry": {
-    "module": "/build/entry.client-QLF55OQL.js",
+    "module": "/build/entry.client-STHENV5A.js",
     "imports": [
-      "/build/_shared/chunk-HLJJE5F5.js",
+      "/build/_shared/chunk-2ZJAEBFX.js",
       "/build/_shared/chunk-E54AUM25.js"
     ]
   },
@@ -11,10 +11,10 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-NDN552UQ.js",
+      "module": "/build/root-KCR3HBEG.js",
       "imports": [
         "/build/_shared/chunk-357YZC7N.js",
-        "/build/_shared/chunk-J2UL7RWE.js"
+        "/build/_shared/chunk-7MS3MOPY.js"
       ],
       "hasAction": false,
       "hasLoader": false,
@@ -25,7 +25,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-X7LWIIHT.js",
+      "module": "/build/routes/index-C3JLGGIJ.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -35,12 +35,12 @@
       "id": "routes/resume",
       "parentId": "root",
       "path": "resume",
-      "module": "/build/routes/resume-HVSXBFFP.js",
+      "module": "/build/routes/resume-LXE6ZLJO.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-2F11E201.js"
+  "url": "/build/manifest-18F4D6BC.js"
 }
