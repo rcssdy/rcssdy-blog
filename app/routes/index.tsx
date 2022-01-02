@@ -1,12 +1,18 @@
 import { Box, Text, Heading, Grid, Button, Image } from "@chakra-ui/react";
+import { ActionFunction } from "remix";
 import Newsletter from "~/components/Newsletter";
+
+export let action: ActionFunction = () => {
+  console.log("the action function has been hit");
+  return null;
+};
 
 export default function Index() {
   return (
     <>
       <Grid gap={4} autoFlow="row dense">
         <Box
-          display={"flex"}
+          display="flex"
           flexDirection={["column-reverse", "column-reverse", "row"]}
           borderWidth="1px"
           borderRadius="lg"
@@ -28,7 +34,7 @@ export default function Index() {
               Learn more
             </Button>
           </Grid>
-          <Box>
+          <Grid gap={4}>
             <Image
               src="/assets/me.jpg"
               alt="Ryan Cassidy"
@@ -36,7 +42,7 @@ export default function Index() {
               mx={["auto", "auto", "0"]}
               borderRadius={"100%"}
             />
-          </Box>
+          </Grid>
         </Box>
         <Newsletter />
       </Grid>

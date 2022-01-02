@@ -1,5 +1,5 @@
 {
-  "version": "18f4d6bc",
+  "version": "8c610660",
   "entry": {
     "module": "/build/entry.client-STHENV5A.js",
     "imports": [
@@ -25,8 +25,8 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-C3JLGGIJ.js",
-      "hasAction": false,
+      "module": "/build/routes/index-6SQKLVHI.js",
+      "hasAction": true,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
@@ -42,5 +42,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-18F4D6BC.js"
+  "url": "/build/manifest-8C610660.js"
 }
